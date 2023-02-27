@@ -28,4 +28,3 @@ To use the script, save it as a `.sh` file (e.g. `git-automation.sh`), make it e
 
 =======
 To use these scripts, save the first script to a file (e.g. 'encrypt.sh') and the second script to another file (e.g. 'decrypt.sh'), and make them executable (chmod +x encrypt.sh decrypt.sh). Then you can encrypt a file by running ./encrypt.sh file_to_encrypt, which will create an encrypted file called file_to_encrypt.enc and key and IV files called file_to_encrypt.enc.key and file_to_encrypt.enc.iv. To decrypt the file, run ./decrypt.sh file_to_encrypt.enc file_to_encrypt.enc.key file_to_encrypt.enc.iv, which will create a decrypted file called file_to_encrypt in the same directory as the encrypted file.
->>>>>>> 69ba4cf0ba79e563b7c0b7db08da1e965d05e3f2
