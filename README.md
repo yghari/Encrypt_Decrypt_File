@@ -1,6 +1,6 @@
 >>-> first script (two scripts : one for encrypting - one for decrypting ) : encrypt -- decrypt
 
-To use these scripts, save the first script to a file (e.g. encrypt.sh) and the second script to another file (e.g. decrypt.sh), and make them executable (chmod +x encrypt.sh decrypt.sh). Then you can encrypt a file by running ./encrypt.sh file_to_encrypt, which will create an encrypted file called file_to_encrypt.enc and key and IV files called file_to_encrypt.enc.key and file_to_encrypt.enc.iv. To decrypt the file, run ./decrypt.sh file_to_encrypt.enc file_to_encrypt.enc.key file_to_encrypt.enc.iv, which will create a decrypted file called file_to_encrypt in the same directory as the encrypted file.
+To use these scripts, save the first script to a file (e.g. encrypt.sh) and the second script to another file (e.g. decrypt.sh), and make them executable (chmod +x encrypt.sh decrypt.sh). Then you can encrypt ( AES-256-CBC encryption ) a file by running ./encrypt.sh file_to_encrypt, which will create an encrypted file called file_to_encrypt.enc and key and IV files called file_to_encrypt.enc.key and file_to_encrypt.enc.iv. To decrypt the file, run ./decrypt.sh file_to_encrypt.enc file_to_encrypt.enc.key file_to_encrypt.enc.iv, which will create a decrypted file called file_to_encrypt in the same directory as the encrypted file.
 
 >>-> second script : time_tracker
 
